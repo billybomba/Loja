@@ -436,6 +436,7 @@ hr.major {
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	
 }
 
 .row>* {
@@ -1974,8 +1975,8 @@ header p {
 }
 
 .icon.style2:hover {
-	color: #f2849e;
-	border-color: #f2849e;
+	color: #bfd403;
+	border-color: #2908e2;
 }
 
 .icon.style2:active {
@@ -2718,6 +2719,10 @@ button:disabled,
 	width: 100%;
 	border-radius: 4px;
 	overflow: hidden;
+	border-style:  solid;
+	border-width: medium;
+	border-color: blue;
+	margin-top: 3px;
 }
 
 .tiles article>.image img {
@@ -3455,20 +3460,31 @@ body.is-menu-visible #menu .close {
 }
 
 .slider {
-	
+
 	margin: 0 auto;
 	width: 400px;
 	height: 400px;
 	overflow: hidden;
 	display: flex;
-	
+	border-style: solid;
+	border-width: medium;
+}
+
+.slider1 {
+
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+
 }
 
 .slides {
 	width: 400%;
 	height: 400px;
 	display: flex;
-	
+
 
 }
 
@@ -3480,13 +3496,13 @@ body.is-menu-visible #menu .close {
 	width: 25%;
 	position: relative;
 	transition: 2s;
-	
+
 
 }
 
 .slide img {
 	width: 400px;
-	
+
 
 
 }
@@ -3497,7 +3513,7 @@ body.is-menu-visible #menu .close {
 	margin-top: 385px;
 	display: flex;
 	justify-content: center;
-	
+
 }
 
 .manual-btn {
@@ -3577,5 +3593,5 @@ body.is-menu-visible #menu .close {
 	padding: 15px;
 	width: 100%;
 	display: flex;
-	
+
 }
