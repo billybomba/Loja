@@ -3462,8 +3462,8 @@ body.is-menu-visible #menu .close {
 .slider {
 
 	margin: 0 auto;
-	width: 400px;
-	height: 400px;
+	width: 380px;
+	height: 350px;
 	overflow: hidden;
 	display: flex;
 	border-style: solid;
@@ -3473,18 +3473,19 @@ body.is-menu-visible #menu .close {
 .slider1 {
 
 	margin: 0 auto;
-	width: 400px;
-	height: 400px;
+	width: 380px;
+	height: 350px;
 	overflow: hidden;
 	display: flex;
+	
 
 }
 
 .slides {
 	width: 400%;
-	height: 400px;
+	height: 350px;
 	display: flex;
-
+	
 
 }
 
@@ -3509,8 +3510,8 @@ body.is-menu-visible #menu .close {
 
 .manual-navigation {
 	position: absolute;
-	width: 400px;
-	margin-top: 385px;
+	width: 340px;
+	margin-top: 330px;
 	display: flex;
 	justify-content: center;
 
@@ -3561,8 +3562,8 @@ body.is-menu-visible #menu .close {
 
 .navigation-auto {
 	position: absolute;
-	width: 400px;
-	margin-top: 385px;
+	width: 340px;
+	margin-top: 330px;
 	display: flex;
 	justify-content: center;
 }
