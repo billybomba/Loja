@@ -3483,7 +3483,7 @@ body.is-menu-visible #menu .close {
 
 .slides {
 	width: 400%;
-	height: 350px;
+	height: 350%;
 	display: flex;
 	
 
@@ -3552,6 +3552,9 @@ body.is-menu-visible #menu .close {
 #radio4:checked~.first {
 	margin-left: -75%;
 }
+#radio5:checked~.first {
+	margin-left: -100%;
+}
 
 .navigation-auto div {
 	border: 2px solid #b6f705;
@@ -3588,6 +3591,9 @@ body.is-menu-visible #menu .close {
 #radio4:checked~.navigation-auto .auto-btn4 {
 	background-color: #f9fd02;
 }
+#radio5:checked~.navigation-auto .auto-btn5 {
+	background-color: #f9fd02;
+}
 
 .faixa {
 	border: #1b04ee;
@@ -3596,4 +3602,8 @@ body.is-menu-visible #menu .close {
 	width: 100%;
 	display: flex;
 
+}
+.departamento{
+	margin-top: 3%;
+	
 }
